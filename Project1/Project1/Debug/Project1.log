@@ -1,2 +1,6 @@
 ﻿  Source.c
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\Source.c(8,13): warning C4305: '=': truncation from 'double' to 'float'
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\Source.c(8,26): warning C4305: '=': truncation from 'double' to 'float'
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\Source.c(12,9): warning C4129: '%': unrecognized character escape sequence
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\Source.c(12,9): warning C4778: 'printf' : unterminated format string '% \"'
   Project1.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\Project1\Debug\Project1.exe
