@@ -1,1 +1,6 @@
-﻿  Project1.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\Project1\Debug\Project1.exe
+﻿  If_Statement.c
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\If_Statement.c(34,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\If_Statement.c(43,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\If_Statement.c(50,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Developer\IMIC Course\C,C++\GIT\Project1\Project1\If_Statement.c(51,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Project1.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\Project1\Debug\Project1.exe
