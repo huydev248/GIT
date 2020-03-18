@@ -34,7 +34,7 @@ void PTbac2(int a, int b, int c)
 		}
 		else
 		{
-			printf("Phuong trinh co 1 nghiem: .", -c / b);
+			printf("Phuong trinh co 1 nghiem: %0.2f.", -c / b);
 		}
 	}
 	else
@@ -42,7 +42,7 @@ void PTbac2(int a, int b, int c)
 		delta = b * b - 4 * a * c;
 		if (delta == 0)
 		{
-			printf("Phuong trinh co 1 nghiem kep: ", -b / 2 * a);
+			printf("Phuong trinh co 1 nghiem kep: %0.2f", -b / 2 * a);
 		}
 		else if (delta < 0)
 		{
@@ -56,6 +56,5 @@ void PTbac2(int a, int b, int c)
 			printf("\nNghiem x1: %.2f\r\n", x1);
 			printf("\nNghiem x2: %.2f\r\n", x2);
 		}
-
 	}
 }
