@@ -1,9 +1,4 @@
-#include<stdio.h>
-
-int x, y;
-void main()
-{
-printf("\nGia tri x=%6d, y=%6d",x=-35.8,y=#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <math.h>

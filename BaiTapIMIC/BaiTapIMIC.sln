@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaiTapIMIC", "BaiTapIMIC\BaiTapIMIC.vcxproj", "{735C8F73-CB45-4157-9207-E982B92591CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Debug|x64.ActiveCfg = Debug|x64
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Debug|x64.Build.0 = Debug|x64
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Debug|x86.Build.0 = Debug|Win32
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Release|x64.ActiveCfg = Release|x64
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Release|x64.Build.0 = Release|x64
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Release|x86.ActiveCfg = Release|Win32
+		{735C8F73-CB45-4157-9207-E982B92591CB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D223041-184A-44C1-BA38-F2D6CC6104FF}
+	EndGlobalSection
+EndGlobal
