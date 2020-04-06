@@ -1,58 +1,23 @@
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
-void PTbac2(int a, int b, int c);
-
-void main()
+int main()
 {
-	int t = 0,a = 0, b = 0, c = 0;
-	printf("Nhap vao he so:\n");
-	t = scanf("%d%d%d", &a,&b,&c);
-	PTbac2(a, b, c);
-}
-
-void PTbac2(int a, int b, int c)
-{
-	float x = 0, x1 = 0, x2 = 0, x3 = 0;
-	float d = 0;
-
-	if (a == 0)
-	{
-		if (b == 0)
-		{
-			if (c == 0)
-				printf("\nPhuong trinh co vo so nghiem!!!\n");
-			else
-				printf("\nPhuong trinh vo nghiem!!!\n");
-		}
-		else
-		{
-			printf("\nPhuong trinh co 1 nghiem: %0.1d\n", -c / b);
-		}
-	}
-	else
-	{
-		d = (b * b) - 4 * a * c;
-		if (d < 0)
-		{
-			printf("\nPhuong trinh vo nghiem!!!!\n");
-		}
-		else if (d == 0)
-		{
-			x = -b / 2 * a;
-			printf("Phuong trinh co 1 nghiem kep: %0.1f", x);
-		}
-		else
-		{
-			x1 = (-b + sqrt(d)) / 2 * a;
-			x2 = (-b - sqrt(d)) / 2 * a;
-			printf("\nPhuong trinh co 2 nghiem phan biet!!!\n");
-			printf("Nghiem x1 la: %0.1f\n", x1);
-			printf("Nghiem x2 la: %0.1f\n", x2);
-		}
-	}
-}
-	48.6);
+	char color[20];
+	char PluralNoun[20];
+	char celebrityF[20];
+	char celebrityL[20];
+	
+	printf("Enter a color: ", color);
+	scanf("%s", color);
+	printf("Enter a PluralNoun: ", PluralNoun);
+	scanf("%s", PluralNoun);
+	printf("Enter a celebrity: ", celebrityF, celebrityL);
+	scanf("%s%s", celebrityF, celebrityL);
+	
+	printf("Rose are %s\n", color);
+	printf("%s are blue\n", PluralNoun);
+	printf("I love %s %s\n", celebrityF, celebrityL);
+	
+	return 0;
 }

@@ -5,7 +5,7 @@ D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\GiaiPTbac2.c(32,19): wa
 D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\GiaiPTbac2.c(43,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\GiaiPTbac2.c(44,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Source.c
-D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\Source.c(12,49): warning C4474: 'printf' : too many arguments passed for format string
-D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\Source.c(12,49): message : placeholders and their parameters expect 0 variadic arguments, but 3 were provided
+D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\Source.c(11,49): warning C4474: 'printf' : too many arguments passed for format string
+D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\BaiTapIMIC\Source.c(11,49): message : placeholders and their parameters expect 0 variadic arguments, but 3 were provided
   Generating Code...
   BaiTapIMIC.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\Debug\BaiTapIMIC.exe
