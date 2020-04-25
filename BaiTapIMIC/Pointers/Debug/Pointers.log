@@ -1,0 +1,4 @@
+﻿  Source1.c
+D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\Pointers\Source1.c(12,12): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int16_t *'
+D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\Pointers\Source1.c(12,12): message : consider using '%hd' in the format string
+  Pointers.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\Debug\Pointers.exe
