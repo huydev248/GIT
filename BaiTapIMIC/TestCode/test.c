@@ -22,7 +22,6 @@ double Power_n(double x, long n)
 	{
 		result *= x;
 	}
-	printf("%f\r\n", result);
 	return result;
 }
 
@@ -38,7 +37,6 @@ double qPower_n(double x, long n)
 		x *= x;
 		n /= 2;
 	}
-	printf("%f\r\n", result);
 	return result;
 }
 
