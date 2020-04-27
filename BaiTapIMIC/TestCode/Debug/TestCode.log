@@ -1,6 +1,2 @@
 ﻿  test.c
-D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\TestCode\test.c(11,30): warning C4474: 'printf' : too many arguments passed for format string
-D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\TestCode\test.c(11,30): message : placeholders and their parameters expect 0 variadic arguments, but 2 were provided
-D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\TestCode\test.c(12,8): warning C4477: 'scanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
-D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\TestCode\test.c(12,8): message : consider using '%lf' in the format string
   TestCode.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\Debug\TestCode.exe
