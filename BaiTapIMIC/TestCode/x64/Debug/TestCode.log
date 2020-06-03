@@ -1,0 +1,4 @@
+﻿  test.c
+D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\TestCode\test.c(12,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\TestCode\test.c(12,9): message : consider using '%zd' in the format string
+  TestCode.vcxproj -> D:\Developer\IMIC Course\C,C++\GIT\BaiTapIMIC\x64\Debug\TestCode.exe
