@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iMS5xnWAI69vPf_PTXu5S4zxel1aCM55uYsGnPsYw2VUCr7E3HJFgnHl7V_YgJK_F6zu_7lHIPp5Qqvx4CNg4xXgUzXcIGBqSCuaceMmTAGygxnVu1JzaZL7FHO2DuB5" charset="UTF-8"></script><script src="https://sdk.amazonaws.com/js/aws-sdk-2.691.0.min.js"></script>
+  <script src="aws.js"></script>
+  
+  <script>
+      function startFunction()
+      {
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://127.0.0.1:1234');
+        xhr.send("LED_ON");
+      }
+	  function stopFinction()
+	  {
+		var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://127.0.0.1:1234');
+        xhr.send("LED_OFF");
+	  }
+  </script>
+</head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<h1>AWS demo</h1>
+
+<p>Web GUI - Control device via network</p>
+
+<button onclick="startFunction()" class="button button1">Start</button>
+<button onclick="stopFinction()" class="button button2">Stop</button>
+<p id="result">
+    
+</p>
+
+
+</body>
+</html>
